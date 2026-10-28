@@ -1,0 +1,59 @@
+{
+  "arm": {
+    "name": "xfam_llama33",
+    "out_run": "e5a_xfam_llama33_70b_awq",
+    "model_path": "/mnt/data/user_workspace/zhangzizhao/matview/models/Llama-3.3-70B-Instruct-AWQ-INT4",
+    "served": "Llama-3.3-70B-Instruct-AWQ",
+    "family": "llama",
+    "thinking": false,
+    "prompt_id": "base",
+    "max_tokens": 600,
+    "weights_gb": 38.0,
+    "min_kv_gb": 8.0,
+    "ctx_len": 16384,
+    "max_seqs": 32,
+    "sec_per_call": 0.9,
+    "gate": true
+  },
+  "aggregation": {
+    "arm": "xfam_llama33",
+    "K": 1,
+    "thinking": false,
+    "order": "natural",
+    "rule": "single",
+    "model": "Llama-3.3-70B-Instruct-AWQ",
+    "model_path": "/mnt/data/user_workspace/zhangzizhao/matview/models/Llama-3.3-70B-Instruct-AWQ-INT4",
+    "family": "llama",
+    "prompt_id": "base",
+    "prompt_sha256": "c2a47c11a8ba8225c9ffceb2932e8d4f953d7d090305dc2c81c3673f11dfa9dc",
+    "max_tokens": 600,
+    "temperature": 0.0,
+    "doc_chars": 1100
+  },
+  "out_run": "runs/e5a_xfam_llama33_70b_awq",
+  "n_eligible_main": 37733,
+  "n_target": 37733,
+  "n_ok": 37719,
+  "n_failed": 14,
+  "parse_fail_rate": 0.00021201600720854424,
+  "trunc_rate": 0.0,
+  "mean_tok_out": 40.91918214825219,
+  "p99_tok_out": 76.0,
+  "verdict_dist": {
+    "SUFFICIENT": 57219,
+    "INSUFFICIENT": 12113,
+    "PARTIAL": 6118,
+    "PARSE_FAIL": 16
+  },
+  "substitutable_rate": 0.6886980036586335,
+  "wall_h": 9.80072887857755,
+  "llm": {
+    "calls": 66138,
+    "fail": 0,
+    "truncated": 0,
+    "tok_in": 102609530,
+    "tok_out": 2714839,
+    "avg_out": 41.0
+  },
+  "limited": false
+}

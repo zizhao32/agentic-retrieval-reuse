@@ -1,0 +1,323 @@
+{
+  "by_source": {
+    "main_v10:agent": {
+      "n_calls": 14206,
+      "n_tasks": 1888,
+      "n_intents": 7592,
+      "head_cov_cost": 0.2859199618298284,
+      "head_cov_calls": 0.28910319583274674,
+      "cross_intent_frac": 0.10734984193888303,
+      "cross_cost_frac": 0.3471130016634251,
+      "head_cross_share": 0.830046262478695,
+      "mean_tasks_per_intent": 1.2295837723919916,
+      "head_mono_text_share": 0.039444850255661065,
+      "mono_text_cluster_frac": 0.27387387387387385,
+      "gini_cost": 0.41535457466136605,
+      "hill_alpha": 1.9805721277613078
+    },
+    "main_v10:replay:2wiki": {
+      "n_calls": 29741,
+      "n_tasks": 12000,
+      "n_intents": 24799,
+      "head_cov_cost": 0.14204931885839886,
+      "head_cov_calls": 0.13936989341313338,
+      "cross_intent_frac": 0.12407758377353925,
+      "cross_cost_frac": 0.26538922792867614,
+      "head_cross_share": 0.981664656212304,
+      "mean_tasks_per_intent": 1.1883543691277874,
+      "head_mono_text_share": 0.8441495778045839,
+      "mono_text_cluster_frac": 0.8901434238632896,
+      "gini_cost": 0.22986727596736078,
+      "hill_alpha": 2.2406916188767316
+    },
+    "main_v10:replay:hotpotqa": {
+      "n_calls": 7405,
+      "n_tasks": 7405,
+      "n_intents": 7404,
+      "head_cov_cost": 0.05047561763945583,
+      "head_cov_calls": 0.05010128291694801,
+      "cross_intent_frac": 0.0001350621285791464,
+      "cross_cost_frac": 0.0002629731507555221,
+      "head_cross_share": 0.005390835579514825,
+      "mean_tasks_per_intent": 1.0001350621285792,
+      "head_mono_text_share": 0.0,
+      "mono_text_cluster_frac": 0.0,
+      "gini_cost": 0.09614994911938335,
+      "hill_alpha": 2.4425002137396197
+    },
+    "main_v10:replay:musique": {
+      "n_calls": 6404,
+      "n_tasks": 2417,
+      "n_intents": 2722,
+      "head_cov_cost": 0.3526052146217672,
+      "head_cov_calls": 0.33806995627732667,
+      "cross_intent_frac": 0.34313005143277003,
+      "cross_cost_frac": 0.7365977812300648,
+      "head_cross_share": 1.0,
+      "mean_tasks_per_intent": 2.352681851579721,
+      "head_mono_text_share": 0.8212471131639723,
+      "mono_text_cluster_frac": 0.9047109207708779,
+      "gini_cost": 0.5319943666676235,
+      "hill_alpha": 1.8847659508752237
+    },
+    "e4:agent": {
+      "n_calls": 10901,
+      "n_tasks": 1960,
+      "n_intents": 6845,
+      "head_cov_cost": 0.17424764327216022,
+      "head_cov_calls": 0.17558022199798184,
+      "cross_intent_frac": 0.027611395178962748,
+      "cross_cost_frac": 0.06230744258921346,
+      "head_cross_share": 0.20794148380355276,
+      "mean_tasks_per_intent": 1.0337472607742877,
+      "head_mono_text_share": 0.2910135841170324,
+      "mono_text_cluster_frac": 0.4403881700554529,
+      "gini_cost": 0.3152197467469555,
+      "hill_alpha": 2.0014614598839966
+    },
+    "e4:replay:2wiki": {
+      "n_calls": 29741,
+      "n_tasks": 12000,
+      "n_intents": 24764,
+      "head_cov_cost": 0.14284138341534303,
+      "head_cov_calls": 0.14014323660939443,
+      "cross_intent_frac": 0.12413180423194961,
+      "cross_cost_frac": 0.2662172719919329,
+      "head_cross_share": 0.9812859884836852,
+      "mean_tasks_per_intent": 1.189549345824584,
+      "head_mono_text_share": 0.8210172744721689,
+      "mono_text_cluster_frac": 0.8818873668188737,
+      "gini_cost": 0.23088006541003625,
+      "hill_alpha": 2.239856288611774
+    },
+    "e4:replay:hotpotqa": {
+      "n_calls": 7405,
+      "n_tasks": 7405,
+      "n_intents": 7404,
+      "head_cov_cost": 0.05047561763945583,
+      "head_cov_calls": 0.05010128291694801,
+      "cross_intent_frac": 0.0001350621285791464,
+      "cross_cost_frac": 0.0002629731507555221,
+      "head_cross_share": 0.005390835579514825,
+      "mean_tasks_per_intent": 1.0001350621285792,
+      "head_mono_text_share": 0.0,
+      "mono_text_cluster_frac": 0.0,
+      "gini_cost": 0.09614994911938335,
+      "hill_alpha": 2.4425002137396197
+    },
+    "e4:replay:musique": {
+      "n_calls": 6404,
+      "n_tasks": 2417,
+      "n_intents": 2724,
+      "head_cov_cost": 0.3526052146217672,
+      "head_cov_calls": 0.33806995627732667,
+      "cross_intent_frac": 0.342143906020558,
+      "cross_cost_frac": 0.7360640952476563,
+      "head_cross_share": 1.0,
+      "mean_tasks_per_intent": 2.3509544787077825,
+      "head_mono_text_share": 0.8212471131639723,
+      "mono_text_cluster_frac": 0.9066523605150214,
+      "gini_cost": 0.5320605615597389,
+      "hill_alpha": 1.8854160360705765
+    }
+  },
+  "agent_stats": {
+    "musique (main_v10)": {
+      "tasks": 2000,
+      "errors": 64,
+      "top_errors": {
+        "LLM: RuntimeError: LLM 调用失败: 400 Client Error: Bad Request for url: http://localhost:8100/v1/chat/completions": 64
+      },
+      "gpus": [
+        1
+      ],
+      "calls": 14224,
+      "llm": {
+        "calls": 10095,
+        "fail": 64,
+        "truncated": 904,
+        "tok_in": 74935648,
+        "tok_out": 7433739,
+        "avg_out": 736.4
+      },
+      "multi_query_mode": "all",
+      "multi_query_frac": 0.8187570303712036,
+      "mean_subqueries": 2.630202474690664,
+      "calls_first_arm": 6629,
+      "median_query_len": 33.0
+    },
+    "2wiki (e4)": {
+      "model": "Alibaba-NLP/Tongyi-DeepResearch-30B-A3B",
+      "quant": "fp8",
+      "dataset": "2wiki",
+      "tasks": 2000,
+      "errors": 7,
+      "top_errors": {
+        "LLM: RuntimeError: LLM 调用失败: 400 Client Error: Bad Request for url: http://localhost:8100/v1/chat/completions": 7
+      },
+      "calls": 10901,
+      "calls_per_task": 5.469643753135976,
+      "multi_query_frac": 0.8395560040363269,
+      "mean_subqueries": 2.2652050270617377,
+      "median_query_len": 29.0,
+      "task_overlap_with_replay_2wiki": 1.0,
+      "llm": {
+        "calls": 7889,
+        "fail": 7,
+        "truncated": 113,
+        "tok_in": 34195563,
+        "tok_out": 3719443,
+        "avg_out": 471.5
+      },
+      "wall_h": 1.9668386124902302,
+      "agent_temperature": 0.6,
+      "agent_max_turns": 20
+    }
+  },
+  "scaling_fits": {
+    "main_v10:all": {
+      "slope": 0.07283618710786637,
+      "r2": 0.972991702991064,
+      "current": 0.23273211563965615,
+      "pred": {
+        "2x": 0.24941517980294128,
+        "10x": 0.3003254898215457,
+        "50x": 0.3512357998401502
+      }
+    },
+    "main_v10:agent": {
+      "slope": 0.07155830472270001,
+      "r2": 0.9489069822536368,
+      "current": 0.2873702071129599,
+      "pred": {
+        "2x": 0.2985920974623346,
+        "10x": 0.3486092060246384,
+        "50x": 0.39862631458694214
+      }
+    },
+    "main_v10:replay:2wiki": {
+      "slope": 0.04860988701059227,
+      "r2": 0.9843606255472815,
+      "current": 0.14141926183819695,
+      "pred": {
+        "2x": 0.15119533092018195,
+        "10x": 0.18517218385474898,
+        "50x": 0.21914903678931602
+      }
+    },
+    "main_v10:replay:hotpotqa": {
+      "slope": 0.0007700369398668185,
+      "r2": 0.7804261300607157,
+      "current": 0.049913234570962806,
+      "pred": {
+        "2x": 0.050297931084728284,
+        "10x": 0.05083616380792588,
+        "50x": 0.05137439653112349
+      }
+    },
+    "main_v10:replay:musique": {
+      "slope": 0.17767583716749918,
+      "r2": 0.9942147696420018,
+      "current": 0.3523857316200202,
+      "pred": {
+        "2x": 0.39990532816766183,
+        "10x": 0.5240954088430343,
+        "50x": 0.6482854895184071
+      }
+    },
+    "e4:all": {
+      "slope": 0.056934702786236524,
+      "r2": 0.9816671959855432,
+      "current": 0.2059675608947093,
+      "pred": {
+        "2x": 0.21847831179453195,
+        "10x": 0.25827396124789764,
+        "50x": 0.29806961070126337
+      }
+    },
+    "e4:agent": {
+      "slope": 0.006890197504086926,
+      "r2": 0.6492976314104555,
+      "current": 0.1750886030106953,
+      "pred": {
+        "2x": 0.17479042072880047,
+        "10x": 0.17960646210810813,
+        "50x": 0.1844225034874158
+      }
+    },
+    "e4:replay:2wiki": {
+      "slope": 0.04932103848477143,
+      "r2": 0.9834387414853965,
+      "current": 0.14197827429718177,
+      "pred": {
+        "2x": 0.15190031550698804,
+        "10x": 0.18637424199054567,
+        "50x": 0.2208481684741033
+      }
+    },
+    "e4:replay:hotpotqa": {
+      "slope": 0.0016599858794178778,
+      "r2": 0.8233611518092515,
+      "current": 0.04993510871631518,
+      "pred": {
+        "2x": 0.050779093571789884,
+        "10x": 0.05193937390912433,
+        "50x": 0.05309965424645877
+      }
+    },
+    "e4:replay:musique": {
+      "slope": 0.1777091821531595,
+      "r2": 0.9943237785432911,
+      "current": 0.3519117266506982,
+      "pred": {
+        "2x": 0.39971859398664983,
+        "10x": 0.523931981806794,
+        "50x": 0.6481453696269384
+      }
+    }
+  },
+  "delta_head_cov_cost_agent_2wiki_minus_musique": -0.11167231855766815,
+  "sanity_replay_2wiki_head_cov_cost": [
+    0.14204931885839886,
+    0.14284138341534303
+  ],
+  "validation": {
+    "0.80": {
+      "tau_star": 0.8809523809523809,
+      "precision_hat": 0.9583253660091238,
+      "precision_lo95": 0.9351546657756026,
+      "meets_target_lower": true,
+      "same_text_share": 0.3580092757759543,
+      "pass_frac_of_agent_pairs": 0.15034932214072116
+    },
+    "0.85": {
+      "tau_star": 0.9398496240601504,
+      "precision_hat": 0.9874092969016455,
+      "precision_lo95": 0.970621692770506,
+      "meets_target_lower": true,
+      "same_text_share": 0.5000622897720194,
+      "pass_frac_of_agent_pairs": 0.1076394941869041
+    },
+    "0.90": {
+      "tau_star": 0.9937343358395989,
+      "precision_hat": 1.0,
+      "precision_lo95": 1.0,
+      "meets_target_lower": true,
+      "same_text_share": 0.9050732807215333,
+      "pass_frac_of_agent_pairs": 0.0594719268367908
+    },
+    "0.95": {
+      "tau_star": 0.9937343358395989,
+      "precision_hat": 1.0,
+      "precision_lo95": 1.0,
+      "meets_target_lower": true,
+      "same_text_share": 0.9050732807215333,
+      "pass_frac_of_agent_pairs": 0.0594719268367908
+    }
+  },
+  "tau_used": 0.94,
+  "mechanical_rules": {
+    "|Δ 头部成本覆盖| < 5pp（对任务源不敏感）": false,
+    "replay:2wiki 两 run 差 < 1pp（合并没破坏 replay）": true
+  }
+}

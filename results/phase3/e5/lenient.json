@@ -1,0 +1,147 @@
+{
+  "main": {
+    "n": 37733,
+    "sub_rate": 0.8524898629846553,
+    "tau_multi": {
+      "0.80": {
+        "tau_star": 0.8070175438596491,
+        "tau_point": 0.7982456140350878,
+        "n_pass": 31072,
+        "pass_frac": 0.8234701719979859,
+        "same_text_frac": 0.17488414006179195,
+        "empirical_sub": 0.9591271884654995,
+        "degenerate": false
+      },
+      "0.85": {
+        "tau_star": 0.8270676691729323,
+        "tau_point": 0.8245614035087719,
+        "n_pass": 29992,
+        "pass_frac": 0.7948480110248324,
+        "same_text_frac": 0.1811816484395839,
+        "empirical_sub": 0.9626900506801814,
+        "degenerate": false
+      },
+      "0.90": {
+        "tau_star": 0.8709273182957393,
+        "tau_point": 0.8571428571428571,
+        "n_pass": 26955,
+        "pass_frac": 0.7143614342882888,
+        "same_text_frac": 0.20159525134483397,
+        "empirical_sub": 0.971990354294194,
+        "degenerate": false
+      },
+      "0.95": {
+        "tau_star": 0.8872180451127819,
+        "tau_point": 0.8809523809523809,
+        "n_pass": 25598,
+        "pass_frac": 0.6783982190655394,
+        "same_text_frac": 0.21228220954762092,
+        "empirical_sub": 0.9732791624345652,
+        "degenerate": false
+      }
+    },
+    "tau_multi_strict": {
+      "0.80": {
+        "tau_star": 0.8809523809523809,
+        "tau_point": 0.8809523809523809,
+        "n_pass": 26241,
+        "pass_frac": 0.6954390056449262,
+        "same_text_frac": 0.20708052284592812,
+        "empirical_sub": 0.8894097023741473,
+        "degenerate": false
+      },
+      "0.85": {
+        "tau_star": 0.9398496240601504,
+        "tau_point": 0.9398496240601504,
+        "n_pass": 14670,
+        "pass_frac": 0.388784353218668,
+        "same_text_frac": 0.3704158145875937,
+        "empirical_sub": 0.9405589638718473,
+        "degenerate": false
+      },
+      "0.90": {
+        "tau_star": 0.9937343358395989,
+        "tau_point": 0.9924812030075187,
+        "n_pass": 6535,
+        "pass_frac": 0.17319057588847958,
+        "same_text_frac": 0.831522570772762,
+        "empirical_sub": 0.9958684009181331,
+        "degenerate": true
+      },
+      "0.95": {
+        "tau_star": 0.9937343358395989,
+        "tau_point": 0.9937343358395989,
+        "n_pass": 6535,
+        "pass_frac": 0.17319057588847958,
+        "same_text_frac": 0.831522570772762,
+        "empirical_sub": 0.9958684009181331,
+        "degenerate": true
+      }
+    }
+  },
+  "xfam_llama33": {
+    "n": 37719,
+    "sub_rate": 0.7981388690050107,
+    "tau_multi": {
+      "0.80": {
+        "tau_star": 0.8621553884711779,
+        "tau_point": 0.8270676691729323,
+        "n_pass": 27622,
+        "pass_frac": 0.7323099764044646,
+        "same_text_frac": 0.19672724639779884,
+        "empirical_sub": 0.9111215697632322,
+        "degenerate": false
+      },
+      "0.85": {
+        "tau_star": 0.8809523809523809,
+        "tau_point": 0.8809523809523809,
+        "n_pass": 26235,
+        "pass_frac": 0.6955380577427821,
+        "same_text_frac": 0.2071278825995807,
+        "empirical_sub": 0.9151896321707642,
+        "degenerate": false
+      },
+      "0.90": {
+        "tau_star": 0.9461152882205514,
+        "tau_point": 0.9436090225563909,
+        "n_pass": 13251,
+        "pass_frac": 0.3513083591823749,
+        "same_text_frac": 0.4100822579427968,
+        "empirical_sub": 0.9413629160063391,
+        "degenerate": false
+      },
+      "0.95": {
+        "tau_star": 1.0,
+        "tau_point": 1.0,
+        "n_pass": 4524,
+        "pass_frac": 0.11993955301041916,
+        "same_text_frac": 0.9986737400530504,
+        "empirical_sub": 0.9593280282935456,
+        "degenerate": true
+      }
+    },
+    "tau_multi_strict": {
+      "0.80": {
+        "tau_star": 0.9874686716791979,
+        "tau_point": 0.9874686716791979,
+        "n_pass": 7064,
+        "pass_frac": 0.18727962035048648,
+        "same_text_frac": 0.7692525481313703,
+        "empirical_sub": 0.8527746319365799,
+        "degenerate": false
+      },
+      "0.85": {
+        "tau_star": null,
+        "tau_point": null
+      },
+      "0.90": {
+        "tau_star": null,
+        "tau_point": null
+      },
+      "0.95": {
+        "tau_star": null,
+        "tau_point": null
+      }
+    }
+  }
+}

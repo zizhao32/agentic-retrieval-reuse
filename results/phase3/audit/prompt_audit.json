@@ -1,0 +1,125 @@
+{
+  "main_run": "runs/main_v10",
+  "decision": {
+    "status": "identified",
+    "variant": "base",
+    "note": "base 逐字复现 facts 98.1%，次优 order_inv 40.6%",
+    "sha256": "c2a47c11a8ba8225c9ffceb2932e8d4f953d7d090305dc2c81c3673f11dfa9dc"
+  },
+  "evidence": {
+    "prompt_sha256": {
+      "base": "c2a47c11a8ba",
+      "order_inv": "781d9f4dd5c9",
+      "evidence_quote": "a1cd7ee0119e",
+      "strict_checklist": "ff5b44d4e7f7",
+      "conservative": "896d7e4e8cd5",
+      "answer_first": "f1bc68eade56",
+      "binary_direct": "787795df6068"
+    },
+    "config_effective": {
+      "exists": true,
+      "mtime": "2026-09-20 06:31:00",
+      "has_judge_order_invariant_field": true,
+      "judge_order_invariant": true,
+      "sim_bins": [
+        0.5,
+        0.6,
+        0.7,
+        0.75,
+        0.8,
+        0.85,
+        0.9,
+        0.95,
+        0.98,
+        0.999,
+        1.0001
+      ],
+      "judge_path": "/mnt/data/user_workspace/zhangzizhao/matview/models/Qwen3-32B-AWQ",
+      "judge_max_tokens": 600,
+      "judge_doc_chars": 1100,
+      "judge_temperature": 0.0
+    },
+    "code_version_hint": "v13（10 档 sim_bins 含 0.98/0.999）",
+    "s22_selected": {
+      "winner": "base",
+      "accuracy": 0.8277591973244147,
+      "passes": true,
+      "threshold": 0.8
+    },
+    "s6_state": {
+      "status": "done",
+      "start": 1789475187.2337284,
+      "duration_sec": 24320.975286722183,
+      "start_h": "2026-09-15 12:26:27"
+    },
+    "log_s6_sections": [
+      [
+        "12:26:27 | INFO    | [s6] 自覆盖筛选 + L1 判官（条件可替代性）",
+        "12:26:29 | INFO    | [prompt] 使用对拍选中的变体 base（金标 accuracy 0.8277591973244147）"
+      ]
+    ],
+    "log_exists": true,
+    "static_inference": {
+      "variant": "base",
+      "reason": "s22/selected.json 存在 → s6 用对拍胜者",
+      "caveat": "config_effective.json 每次调用 phase1 都会重写，反映的是最后一次调用时的配置，不一定是 s6 那次"
+    },
+    "think1_prompt": {
+      "variant": "base",
+      "evidence": "fix_judge.judge_once 思考分支：tmpl = prompt or P.L1_PROMPT，J2 调用时 prompt=None"
+    },
+    "k3_prompt": {
+      "variant": "order_inv",
+      "evidence": "k3 走 P._judge1(prompt=None)，fix_judge 不设 _active_prompt → 取当前 config 的 judge_order_invariant（默认 True）；这是推断，未做指纹"
+    },
+    "fingerprint": {
+      "n_pairs": 160,
+      "by_variant": {
+        "base": {
+          "n": 160,
+          "verdict_agree": 1.0,
+          "facts_exact": 0.98125,
+          "sha12": "c2a47c11a8ba"
+        },
+        "order_inv": {
+          "n": 160,
+          "verdict_agree": 0.9875,
+          "facts_exact": 0.40625,
+          "sha12": "781d9f4dd5c9"
+        },
+        "evidence_quote": {
+          "n": 160,
+          "verdict_agree": 0.95,
+          "facts_exact": 0.30625,
+          "sha12": "a1cd7ee0119e"
+        },
+        "strict_checklist": {
+          "n": 160,
+          "verdict_agree": 0.925,
+          "facts_exact": 0.05,
+          "sha12": "ff5b44d4e7f7"
+        },
+        "conservative": {
+          "n": 160,
+          "verdict_agree": 0.91875,
+          "facts_exact": 0.04375,
+          "sha12": "896d7e4e8cd5"
+        },
+        "answer_first": {
+          "n": 160,
+          "verdict_agree": 0.98125,
+          "facts_exact": 0.0,
+          "sha12": "f1bc68eade56"
+        },
+        "binary_direct": {
+          "n": 160,
+          "verdict_agree": 0.925,
+          "facts_exact": 0.0,
+          "sha12": "787795df6068"
+        }
+      }
+    }
+  },
+  "main_vs_think1_same_prompt": true,
+  "paper_consequence": "§6 的「两臂只差推理预算」成立（同一 prompt）。E5b 不需要。"
+}

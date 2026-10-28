@@ -1,0 +1,27 @@
+{
+  "model": "Alibaba-NLP/Tongyi-DeepResearch-30B-A3B",
+  "quant": "fp8",
+  "dataset": "2wiki",
+  "tasks": 2000,
+  "errors": 7,
+  "top_errors": {
+    "LLM: RuntimeError: LLM 调用失败: 400 Client Error: Bad Request for url: http://localhost:8100/v1/chat/completions": 7
+  },
+  "calls": 10901,
+  "calls_per_task": 5.469643753135976,
+  "multi_query_frac": 0.8395560040363269,
+  "mean_subqueries": 2.2652050270617377,
+  "median_query_len": 29.0,
+  "task_overlap_with_replay_2wiki": 1.0,
+  "llm": {
+    "calls": 7889,
+    "fail": 7,
+    "truncated": 113,
+    "tok_in": 34195563,
+    "tok_out": 3719443,
+    "avg_out": 471.5
+  },
+  "wall_h": 1.9668386124902302,
+  "agent_temperature": 0.6,
+  "agent_max_turns": 20
+}

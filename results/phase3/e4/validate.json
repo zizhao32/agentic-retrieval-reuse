@@ -1,0 +1,248 @@
+{
+  "prompt_id": "base",
+  "prompt_sha256": "c2a47c11a8ba8225c9ffceb2932e8d4f953d7d090305dc2c81c3673f11dfa9dc",
+  "judge": "Qwen/Qwen3-32B-AWQ",
+  "n_candidate_pairs": 74573,
+  "n_sampled": 1320,
+  "n_done": 1320,
+  "n_eligible_ok": 461,
+  "eligibility_rate": 0.34924242424242424,
+  "cross_task_share_sampled": 0.19242424242424241,
+  "per_bin": {
+    "0": {
+      "range": [
+        0.5,
+        0.6
+      ],
+      "N_pop": 48905,
+      "n_sampled": 30,
+      "eligibility_rate": 0.36666666666666664,
+      "n_eligible": 11,
+      "p": 0.09090909090909091,
+      "ci": [
+        0.01623175226282597,
+        0.3773646254862038
+      ],
+      "main_v10_all_p": 0.006134969325153374,
+      "main_v10_musique_agent_p": 0.18181818181818182,
+      "main_v10_musique_agent_n": 11
+    },
+    "1": {
+      "range": [
+        0.6,
+        0.7
+      ],
+      "N_pop": 8313,
+      "n_sampled": 30,
+      "eligibility_rate": 0.23333333333333334,
+      "n_eligible": 7,
+      "p": 0.14285714285714285,
+      "ci": [
+        0.02567895594897479,
+        0.51313450331903
+      ],
+      "main_v10_all_p": 0.0815913688469319,
+      "main_v10_musique_agent_p": 0.3673469387755102,
+      "main_v10_musique_agent_n": 49
+    },
+    "2": {
+      "range": [
+        0.7,
+        0.75
+      ],
+      "N_pop": 1930,
+      "n_sampled": 30,
+      "eligibility_rate": 0.26666666666666666,
+      "n_eligible": 8,
+      "p": 0.375,
+      "ci": [
+        0.13684175946152105,
+        0.6942621454161981
+      ],
+      "main_v10_all_p": 0.3273809523809524,
+      "main_v10_musique_agent_p": 0.6535433070866141,
+      "main_v10_musique_agent_n": 254
+    },
+    "3": {
+      "range": [
+        0.75,
+        0.8
+      ],
+      "N_pop": 1523,
+      "n_sampled": 30,
+      "eligibility_rate": 0.06666666666666667,
+      "n_eligible": 2,
+      "p": 0.0,
+      "ci": [
+        0.0,
+        0.6576280471103807
+      ],
+      "main_v10_all_p": 0.6279607163489312,
+      "main_v10_musique_agent_p": 0.757201646090535,
+      "main_v10_musique_agent_n": 486
+    },
+    "4": {
+      "range": [
+        0.8,
+        0.85
+      ],
+      "N_pop": 1440,
+      "n_sampled": 200,
+      "eligibility_rate": 0.245,
+      "n_eligible": 49,
+      "p": 0.8163265306122449,
+      "ci": [
+        0.6864212843271743,
+        0.9002377116154164
+      ],
+      "main_v10_all_p": 0.783109404990403,
+      "main_v10_musique_agent_p": 0.7791952894995093,
+      "main_v10_musique_agent_n": 1019
+    },
+    "5": {
+      "range": [
+        0.85,
+        0.9
+      ],
+      "N_pop": 2039,
+      "n_sampled": 200,
+      "eligibility_rate": 0.24,
+      "n_eligible": 48,
+      "p": 0.8125,
+      "ci": [
+        0.6805986065115378,
+        0.8980872365179983
+      ],
+      "main_v10_all_p": 0.7516059957173448,
+      "main_v10_musique_agent_p": 0.8109710896960711,
+      "main_v10_musique_agent_n": 1349
+    },
+    "6": {
+      "range": [
+        0.9,
+        0.95
+      ],
+      "N_pop": 3074,
+      "n_sampled": 200,
+      "eligibility_rate": 0.355,
+      "n_eligible": 71,
+      "p": 0.9014084507042254,
+      "ci": [
+        0.8101907235136308,
+        0.951417793674671
+      ],
+      "main_v10_all_p": 0.8340467566677643,
+      "main_v10_musique_agent_p": 0.7954085077650236,
+      "main_v10_musique_agent_n": 2962
+    },
+    "7": {
+      "range": [
+        0.95,
+        0.98
+      ],
+      "N_pop": 2055,
+      "n_sampled": 200,
+      "eligibility_rate": 0.305,
+      "n_eligible": 61,
+      "p": 0.9508196721311475,
+      "ci": [
+        0.8650865720629857,
+        0.9831343231647693
+      ],
+      "main_v10_all_p": 0.9208315833683326,
+      "main_v10_musique_agent_p": 0.8947945205479452,
+      "main_v10_musique_agent_n": 1825
+    },
+    "8": {
+      "range": [
+        0.98,
+        0.999
+      ],
+      "N_pop": 1267,
+      "n_sampled": 200,
+      "eligibility_rate": 0.365,
+      "n_eligible": 73,
+      "p": 1.0,
+      "ci": [
+        0.950006246616416,
+        0.9999999999999999
+      ],
+      "main_v10_all_p": 0.8761991777067154,
+      "main_v10_musique_agent_p": 0.9314472252448314,
+      "main_v10_musique_agent_n": 919
+    },
+    "9": {
+      "range": [
+        0.999,
+        1.0001
+      ],
+      "N_pop": 4027,
+      "n_sampled": 200,
+      "eligibility_rate": 0.655,
+      "n_eligible": 131,
+      "p": 1.0,
+      "ci": [
+        0.9715102757605961,
+        0.9999999999999999
+      ],
+      "main_v10_all_p": 0.9967032967032967,
+      "main_v10_musique_agent_p": 0.9910600255427842,
+      "main_v10_musique_agent_n": 783
+    }
+  },
+  "operating_points": {
+    "0.80": {
+      "tau_star": 0.8809523809523809,
+      "n_pass_pop": 11212,
+      "pass_frac_of_agent_pairs": 0.15034932214072116,
+      "precision_hat": 0.9583253660091238,
+      "precision_lo95": 0.9351546657756026,
+      "target": 0.8,
+      "meets_target_lower": true,
+      "meets_target_point": "True",
+      "same_text_share": 0.3580092757759543,
+      "strata_fallback_bins": [],
+      "n_judged_used": 361
+    },
+    "0.85": {
+      "tau_star": 0.9398496240601504,
+      "n_pass_pop": 8027,
+      "pass_frac_of_agent_pairs": 0.1076394941869041,
+      "precision_hat": 0.9874092969016455,
+      "precision_lo95": 0.970621692770506,
+      "target": 0.85,
+      "meets_target_lower": true,
+      "meets_target_point": "True",
+      "same_text_share": 0.5000622897720194,
+      "strata_fallback_bins": [],
+      "n_judged_used": 287
+    },
+    "0.90": {
+      "tau_star": 0.9937343358395989,
+      "n_pass_pop": 4435,
+      "pass_frac_of_agent_pairs": 0.0594719268367908,
+      "precision_hat": 1.0,
+      "precision_lo95": 1.0,
+      "target": 0.9,
+      "meets_target_lower": true,
+      "meets_target_point": "True",
+      "same_text_share": 0.9050732807215333,
+      "strata_fallback_bins": [],
+      "n_judged_used": 163
+    },
+    "0.95": {
+      "tau_star": 0.9937343358395989,
+      "n_pass_pop": 4435,
+      "pass_frac_of_agent_pairs": 0.0594719268367908,
+      "precision_hat": 1.0,
+      "precision_lo95": 1.0,
+      "target": 0.95,
+      "meets_target_lower": true,
+      "meets_target_point": "True",
+      "same_text_share": 0.9050732807215333,
+      "strata_fallback_bins": [],
+      "n_judged_used": 163
+    }
+  },
+  "note": "精度=条件可替代率（两端 self-cov 都过的对），与 main_v10 的 s8 口径一致；分层权重=2Wiki-agent 候选对总体在各层的数量"
+}

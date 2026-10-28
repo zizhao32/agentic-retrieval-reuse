@@ -1,0 +1,5 @@
+# Model-serving environment ("envs/serve"): LLM judges and agents are served with vLLM's
+# OpenAI-compatible server. Paper runs used vllm 0.8.5.post1.
+vllm==0.8.5.post1
+huggingface_hub[cli]
+hf_transfer

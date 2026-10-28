@@ -1,0 +1,10 @@
+(English translation of GUIDE_zh.txt, which is the version annotators used.)
+
+Each item shows a question and a set of retrieved passages. Judge only from these
+passages: do they contain all the facts needed to answer the question?
+- Consider only what the passages contain; do not fill gaps with your own knowledge.
+  Anything not stated explicitly counts as "not sufficient".
+- The order and numbering of the passages do not matter.
+- If you are unsure, choose "unsure"; do not guess.
+Do not discuss items with other annotators and do not look at any model's verdicts
+while annotating.
