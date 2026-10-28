@@ -1,11 +1,5 @@
-# Cross-Task Reuse in Agentic Retrieval Workloads — Reproducibility Package
+# Cross-Task Reuse in Agentic Retrieval Workloads 
 
-Code, results, and human labels for the PVLDB Vol. 20 (VLDB 2027) submission
-*"Cross-Task Reuse in Agentic Retrieval Workloads: A Measurement Study and the Limits of
-LLM-Adjudicated View Matching [Experiment, Analysis & Benchmark]"*.
-
-Large files (retrieval traces, per-pair judge verdicts, raw judge outputs) are archived
-on Zenodo: **DOI: `10.5281/zenodo.XXXXXXX`** (see [`ZENODO.md`](ZENODO.md)).
 
 > Language note: code comments, log messages and the judge/agent prompts are in
 > Chinese. The prompts are reproduced with English translations in

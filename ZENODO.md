@@ -1,6 +1,5 @@
 # Large files on Zenodo
 
-DOI: `10.5281/zenodo.XXXXXXX`
 
 The Zenodo record holds files too large for git, gzip-compressed, with paths mirroring
 the run layout (`runs/<run>/stages/<stage>/<file>.gz`):
